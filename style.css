@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.header nav {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  width: 100%;
+  height: 10vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+}
+.header nav .logo {
+  padding: 18px 0px;
+  justify-content: start;
+  width: 160px;
+  height: 36px;
+}
+.header nav ul {
+  display: flex;
+  padding: 25px 0px;
+  gap: 50px;
+}
+.header nav ul li {
+  display: flex;
+  font-size: 16px;
+}
+.header nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.header nav ul li a:hover {
+  color: #FF4A32;
+}
+.header .bufer {
+  width: 100%;
+  height: 150vh;
+  background-image: url(img/bagraud\ sukutr.png);
+  background-size: cover;
+}
+.header .bufer h1 {
+  padding: 100px 0px;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 50.63px;
+  text-align: center;
+  -webkit-text-decoration: solid black;
+          text-decoration: solid black;
+}
+.header .bufer h1:hover {
+  text-decoration: overline;
+}
+.header .bufer h4 {
+  margin-top: -70px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18.75px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.header .bufer #but {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.header .bufer #but button {
+  width: 201px;
+  height: 33px;
+  background-color: #FF4A32;
+  border: none;
+  border-radius: 20px;
+  margin-top: -70px;
+}
+.header .bufer #but button a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.header .bufer #but button:hover {
+  width: 210px;
+  height: 40px;
+}
+.header .bufer #but2 button {
+  width: 201px;
+  height: 33px;
+  background-color: #FF4A32;
+  border: none;
+  border-radius: 20px;
+  color: #FFFFFF;
+}
+
+.logo2 {
+  width: 100%;
+  height: 10vh;
+  background-color: #000000;
+  padding: 10px 200px;
+}
+
+.bosh2 {
+  font-family: Roboto;
+}
+.bosh2 h1 {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+}
+.bosh2 h1:hover {
+  text-decoration: overline;
+}
+.bosh2 p {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: center;
+  color: #000000;
+}
+.bosh2 .icon {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+}
+.bosh2 .imgs2 {
+  text-align: center;
+  display: flex;
+  width: 56%;
+  height: 560px;
+  gap: 20px;
+  margin-left: 290px;
+  padding: 50px 0px;
+}
+
+.bosh3 {
+  width: 100%;
+  height: 736px;
+  top: 0.39px;
+  gap: 0px;
+  background-image: url(img/3\ -qism\ bagraund.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Roboto;
+}
+.bosh3 h4 {
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+}
+.bosh3 h1 {
+  text-align: center;
+  font-size: 45px;
+  color: #000000;
+}
+.bosh3 h1:hover {
+  text-decoration: overline;
+}
+.bosh3 p {
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+}
+.bosh3 button {
+  margin-left: 650px;
+  width: 201px;
+  height: 33px;
+  border-radius: 20px;
+  border: none;
+  background-color: #FF4A32;
+}
+.bosh3 button a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.bosh3 button:hover {
+  width: 210px;
+  height: 40px;
+}
+
+.hama4 {
+  font-family: Roboto;
+}
+.hama4 .imgs3 {
+  width: 380px;
+  height: 380px;
+  display: flex;
+  gap: 30px;
+  margin-left: 100px;
+}
+.hama4 .bosh4 {
+  margin-top: -300px;
+  margin-left: 1000px;
+}
+.hama4 .bosh4 h1 {
+  color: #000000;
+  font-size: 32px;
+}
+.hama4 .bosh4 h1:hover {
+  text-decoration: overline;
+}
+.hama4 .bosh4 button {
+  width: 201px;
+  height: 33px;
+  border-radius: 20px;
+  border: none;
+  background-color: #FF4A32;
+  color: #FFFFFF;
+}
+.hama4 .bosh4 button:hover {
+  width: 210px;
+  height: 40px;
+}
+
+.imgs5 {
+  margin-left: 50px;
+  width: 479px;
+  height: 479px;
+  display: flex;
+}
+
+.imgs6 {
+  width: 540px;
+  height: 304px;
+  gap: 30px;
+  display: flex;
+  margin-left: 200px;
+}
+
+.imgs7 {
+  font-family: Roboto;
+  text-align: center;
+}
+.imgs7 h1 {
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+.imgs7 h1:hover {
+  text-decoration: overline;
+}
+.imgs7 img {
+  font-size: 20px;
+}
+
+.brlash .one {
+  margin-top: 150px;
+}
+.brlash .one img:hover {
+  box-shadow: 1px 1px 10px;
+  border-radius: 50%;
+}
+
+.boss {
+  display: flex;
+}
+.boss .qobiq {
+  margin-top: -120px;
+  margin-left: 45px;
+}
+.boss .qobiq h4 a {
+  text-decoration: none;
+  padding: 15px 40px;
+  color: #FF4A32;
+  font-size: 17px;
+}
+.boss .qobiq h3 a {
+  display: flex;
+  text-decoration: none;
+  color: #373737;
+  font-size: 14px;
+  margin-left: 40px;
+}
+.boss .qobiq h2 a {
+  margin-left: 90px;
+  margin-top: -7px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #FF4A32;
+  position: absolute;
+  top: 4568px;
+}
+
+.strelka {
+  margin-top: -50px;
+}
+
+.strelka img:hover {
+  box-shadow: 1px 1px 10px;
+  border-radius: 50%;
+}
+
+.boss2 {
+  display: flex;
+  width: 100% px;
+  height: 40vh;
+  background-color: #000000;
+  font-family: Roboto;
+}
+.boss2 .qobiq3 {
+  padding: 40px 100px;
+}
+.boss2 .qobiq3 img {
+  padding: 0px 30px;
+}
+.boss2 .qobiq3 h1 {
+  color: #FFFFFF;
+}
+.boss2 .qobiq3 p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 40;
+  text-align: center;
+  line-height: 22.5px;
+  margin-left: -40px;
+}
+.boss2 .qobiq4 {
+  padding: 40px 50px;
+}
+.boss2 .qobiq4 img {
+  padding: 0px 60px;
+}
+.boss2 .qobiq4 h1 {
+  color: #FFFFFF;
+}
+.boss2 .qobiq4 p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 40;
+  text-align: center;
+  line-height: 22.5px;
+  margin-left: -100px;
+}
+.boss2 .qobiq5 {
+  padding: 40px 100px;
+}
+.boss2 .qobiq5 img {
+  padding: 0px 0px;
+}
+.boss2 .qobiq5 h1 {
+  color: #FFFFFF;
+  margin-left: -50px;
+}
+.boss2 .qobiq5 p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 40;
+  text-align: center;
+  line-height: 22.5px;
+  margin-left: -100px;
+}
+.boss2 .qobiq7 {
+  padding: 40px 40px;
+}
+.boss2 .qobiq7 img {
+  padding: 0px 20px;
+}
+.boss2 .qobiq7 h1 {
+  color: #FFFFFF;
+  margin-left: -80px;
+}
+.boss2 .qobiq7 p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 40;
+  text-align: center;
+  line-height: 22.5px;
+  margin-left: -100px;
+}
+
+.bigboos7 {
+  font-family: Roboto;
+  display: flex;
+}
+.bigboos7 img {
+  padding: 50px 140px;
+}
+.bigboos7 .yozula7 {
+  padding: 50px 0px;
+}
+.bigboos7 .yozula72 {
+  padding: 50px 200px;
+}
+
+.pastboss {
+  font-family: Roboto;
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 10px 10px 20px;
+  padding: 20px 0px;
+}/*# sourceMappingURL=style.css.map */

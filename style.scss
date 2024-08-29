@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    nav{
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        width: 100%;
+        height: 10vh;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-around;
+        .logo{
+            padding: 18px 0px;
+            justify-content: start;
+            width: 160px;
+            height: 36px;  
+        }
+        ul{
+            display: flex;
+            padding: 25px 0px;
+            gap: 50px;
+            li{ 
+                display: flex;
+                font-size: 16px;
+                a{
+                    text-decoration: none;
+                    color: #000000;
+                }
+                a:hover{
+                    color: #FF4A32;
+                }
+            }
+        }
+    }
+    .bufer{
+        width: 100% ;
+        height: 150vh;
+        background-image: url(img/bagraud\ sukutr.png);
+        background-size: cover;
+        h1{
+            padding: 100px 0px;
+            color: #000000;
+            font-family: Roboto;
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 50.63px;
+            text-align: center;
+            text-decoration: solid black;
+        }
+        h1:hover{
+            text-decoration:overline;
+        }
+        h4{
+            margin-top: -70px;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 18.75px;
+            letter-spacing: 1px;
+            text-align: center;
+
+        } 
+        #but{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        #but button{
+            width: 201px;
+            height: 33px;
+            background-color: #FF4A32;
+            border: none;
+            border-radius: 20px;
+            margin-top: -70px;
+            a{
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+        #but button:hover{
+            width: 210px;
+            height: 40px;
+        }
+        #but2 button{
+            width: 201px;
+            height: 33px;
+            background-color: #FF4A32;
+            border: none;   
+            border-radius: 20px;
+            color: #FFFFFF;
+        }
+    }
+}
+.logo2{
+    width: 100%;
+    height: 10vh;
+    background-color: #000000;
+    padding: 10px 200px;
+}
+
+
+// 2
+.bosh2{
+    font-family: Roboto;
+    h1{
+        width: 100%;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+    }
+    h1:hover{
+        text-decoration: overline;
+    }
+    p{
+        width: 100%;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-align: center;
+        color: #000000;
+    }
+    .icon{
+        width: 100%;
+        height: 10vh;
+        text-align: center;
+    }
+    .imgs2{
+        text-align: center;
+        display: flex;
+        width: 56%;
+        height: 560px;
+        gap: 20px;
+        margin-left: 290px;
+        padding: 50px 0px;
+    }
+}
+
+
+
+// 3
+.bosh3{
+    width: 100%;
+    height: 736px;
+    top: 0.39px;
+    gap: 0px;
+    background-image: url(img/3\ -qism\ bagraund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto;
+    h4{
+        text-align: center;
+        font-size: 15px;
+        color: #000000;
+    }
+    h1{
+        text-align: center;
+        font-size: 45px;
+        color: #000000;
+    }
+    h1:hover{
+        text-decoration: overline;
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+        color: #000000;
+    }
+    button{
+        margin-left: 650px;
+        width: 201px;
+        height: 33px;
+        border-radius: 20px;
+        border: none;
+        background-color: #FF4A32;
+        a{
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+    button:hover{
+        width: 210px;
+        height: 40px; 
+    }
+}
+
+
+
+// 4
+.hama4{
+    font-family: Roboto;
+    .imgs3{
+        width: 380px;
+        height: 380px;
+        display: flex;
+        gap: 30px;
+        margin-left: 100px;
+    }
+    .bosh4{
+            margin-top: -300px;
+            margin-left: 1000px;
+        h1{
+            color: #000000;
+            font-size: 32px;
+        }
+        h1:hover{
+            text-decoration: overline;
+        }
+        button{
+            width: 201px;
+            height: 33px;
+            border-radius: 20px;
+            border: none;
+            background-color: #FF4A32;
+            color: #FFFFFF;
+        }
+        button:hover{
+            width: 210px;
+            height: 40px;
+        }
+    }
+}
+.imgs5{
+    margin-left: 50px;
+    width: 479px;
+    height: 479px;
+    display: flex;
+}
+.imgs6{
+    width: 540px;
+    height: 304px;
+    gap: 30px;
+    display: flex;
+    margin-left: 200px;
+}
+
+
+
+
+// 5
+.imgs7{
+    font-family: Roboto;
+    h1{
+        font-size: 32px;
+        color: #000000;
+        text-align: center;
+    }
+    h1:hover{
+        text-decoration: overline;
+    }
+    text-align: center;
+    img{
+        font-size: 20px;
+    }
+}
+.brlash{
+    .one{
+        margin-top: 150px;
+    }
+    .one img:hover{
+        box-shadow: 1px 1px 10px;
+        border-radius: 50%;
+    }    
+}
+.boss{
+    display: flex;
+    .qobiq{
+        margin-top: -120px;
+        margin-left: 45px;
+        h4 a{
+            text-decoration: none;
+            padding: 15px 40px;
+            color: #FF4A32;
+            font-size: 17px;
+        }
+        h3 a{
+            display: flex;
+            text-decoration: none;
+            color: #373737;
+            font-size: 14px;
+            margin-left: 40px;
+        }
+        h2 a{
+            margin-left: 90px;
+            margin-top: -7px;
+            text-decoration: none;
+            font-size: 14px;
+            color: #FF4A32;
+            position: absolute;
+            top: 4568px;
+        }
+    }
+}
+.strelka{
+    margin-top: -50px;
+}
+.strelka img:hover{
+    box-shadow: 1px 1px 10px;
+    border-radius: 50%;
+}
+
+
+
+
+// 6
+.boss2{
+    display: flex;
+    width: 100%px;
+    height: 40vh;
+    background-color: #000000;
+    font-family: Roboto;
+    .qobiq3{
+        padding: 40px 100px;
+        img{
+            padding: 0px 30px;
+        }
+        h1{
+            color: #FFFFFF;
+        }
+        p{
+            color: #FFFFFF;
+            font-size: 15px;
+            font-weight: 40;
+            text-align: center;
+            line-height: 22.5px;
+            margin-left: -40px;
+        }
+    }
+
+    .qobiq4{
+        padding: 40px 50px;
+        img{
+            padding: 0px 60px;
+        }
+        h1{
+            color: #FFFFFF;
+        }
+        p{
+            color: #FFFFFF;
+            font-size: 15px;
+            font-weight: 40;
+            text-align: center;
+            line-height: 22.5px;
+            margin-left: -100px;
+        }
+    }
+
+    .qobiq5{
+        padding: 40px 100px;
+        img{
+            padding: 0px 0px;
+        }
+        h1{
+            color: #FFFFFF;
+            margin-left: -50px;
+        }
+        p{
+            color: #FFFFFF;
+            font-size: 15px;
+            font-weight: 40;
+            text-align: center;
+            line-height: 22.5px;
+            margin-left: -100px;
+        }
+    }
+
+
+    .qobiq7{
+        padding: 40px 40px;
+        img{
+            padding: 0px 20px;
+        }
+        h1{
+            color: #FFFFFF;
+            margin-left: -80px;
+        }
+        p{
+            color: #FFFFFF;
+            font-size: 15px;
+            font-weight: 40;
+            text-align: center;
+            line-height: 22.5px;
+            margin-left: -100px;
+        }
+    }
+}
+
+
+
+
+// 7
+.bigboos7{
+    font-family: Roboto;
+    display: flex;
+    img{
+        padding: 50px 140px;
+    }
+    .yozula7{
+        padding: 50px 0px;
+        h1{
+
+        }
+    }
+    .yozula72{
+        padding: 50px 200px;
+    }
+}
+
+
+.pastboss{
+    font-family: Roboto;
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 10px 20px;
+    padding: 20px 0px;
+}
